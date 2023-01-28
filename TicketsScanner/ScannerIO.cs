@@ -17,7 +17,7 @@ namespace TicketsScaner
         }
 
         [DllExport("Start", CallingConvention = CallingConvention.Cdecl)]
-        public static bool Start([MarshalAs(UnmanagedType.LPStr)] String configJson)
+        public static bool Start()
         {
             if (scanner == null)
             {
