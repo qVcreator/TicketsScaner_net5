@@ -3,14 +3,14 @@
     using System;
     using System.IO.Ports;
 
-    public class Scaner
+    public class Scanner
     {
         public string LastTicket { get; private set; }
 
         private readonly string _comPort;
         private SerialPort _serialPort;
 
-        public Scaner(string comPort)
+        public Scanner(string comPort)
         {
             _comPort = comPort;
         }
