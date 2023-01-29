@@ -1,5 +1,4 @@
-﻿using RGiesecke.DllExport;
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 using TicketsScanner;
 

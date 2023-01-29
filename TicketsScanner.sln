@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsScanner", "TicketsScanner\TicketsScanner.csproj", "{1051CB26-DE67-4884-BA20-297E8AE0B312}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsScanner", "TicketsScanner.csproj", "{04DF9E07-6F07-4D35-9A0C-838C3654F6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1051CB26-DE67-4884-BA20-297E8AE0B312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1051CB26-DE67-4884-BA20-297E8AE0B312}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1051CB26-DE67-4884-BA20-297E8AE0B312}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1051CB26-DE67-4884-BA20-297E8AE0B312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DF9E07-6F07-4D35-9A0C-838C3654F6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DF9E07-6F07-4D35-9A0C-838C3654F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DF9E07-6F07-4D35-9A0C-838C3654F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DF9E07-6F07-4D35-9A0C-838C3654F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6FF1B8CF-D7AE-4286-A7A9-3576B5DB1DDF}
+		SolutionGuid = {883D81E3-39BF-49F5-8D0F-54EBA90D0519}
 	EndGlobalSection
 EndGlobal
