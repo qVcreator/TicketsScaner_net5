@@ -57,6 +57,12 @@
                 _serialPort.Close();
             }
 
+            if (temp.Contains("\n"))
+            {
+                var checkedTemp = temp.Split('\n');
+                temp = checkedTemp[checkedTemp.Length - 1];
+            }
+
             return temp;
         }
 
