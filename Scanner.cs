@@ -12,6 +12,7 @@
 
         public Scanner(string comPort)
         {
+            _serialPort.Close(); 
             _comPort = comPort;
         }
 
