@@ -12,11 +12,14 @@
 
         public Scanner(string comPort)
         {
+            _comPort = comPort;
+
+            _serialPort = new SerialPort(_comPort);
+
             if (_serialPort.IsOpen)
             {
-                _serialPort.Close(); 
+                _serialPort.Close();
             }
-            _comPort = comPort;
         }
 
         public bool Start()
@@ -24,8 +27,6 @@
             try
             {
                 LastTicket = string.Empty;
-
-                _serialPort = new SerialPort(_comPort);
 
                 _serialPort.BaudRate = 9600;
                 _serialPort.Parity = Parity.None;
@@ -47,7 +48,10 @@
 
         public void Stop()
         {
-            _serialPort.Close();
+            if (_serialPort.IsOpen)
+            {
+                _serialPort.Close();
+            }
         }
 
         public string GetNewTicket()
