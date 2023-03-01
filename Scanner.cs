@@ -50,7 +50,11 @@
         {
             var temp = LastTicket;
             LastTicket = string.Empty;
-            Stop();
+            
+            if(temp != string.Empty)
+            {
+                _serialPort.Close();
+            }
 
             return temp;
         }
